@@ -1,7 +1,9 @@
 /*
- * @LastEditTime: 2021-02-24 11:41:59
+ * @LastEditTime: 2021-02-24 11:43:58
  * @LastEditors: jinxiaojian
  */
+
+//  手写Promise.all
 
 // 总结 promise.all 的特点
 // 1. 接收一个 Promise 实例的数组或具有 Iterator 接口的对象，
