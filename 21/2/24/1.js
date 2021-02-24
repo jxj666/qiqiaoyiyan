@@ -1,5 +1,5 @@
 /*
- * @LastEditTime: 2021-02-24 11:35:40
+ * @LastEditTime: 2021-02-24 11:41:59
  * @LastEditors: jinxiaojian
  */
 
@@ -20,6 +20,17 @@ let p1 = Promise.resolve(1),
 Promise.all([p1, p2, p3]).then(function (results) {
   console.log(results);  // [1, 2, 3]
 });
+
+
+// function PromiseAllTest (p数组) {
+//   //判断p数组是否是数组
+//   //定义已完成p数,p数组长度,返回数组
+//   //循环运行数组,Promise.resolve运行p,根据单个p情况判断:继续/跳出/返回
+// }
+
+
+
+
 
 function promiseAll (promises) {
   return new Promise(function (resolve, reject) {
